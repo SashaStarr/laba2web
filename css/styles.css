@@ -1,0 +1,84 @@
+@media screen and (min-width: 0px) {
+    .title {
+        text-align: center;
+    }
+    h1 {
+        color: #fff;
+        font-family: "DM Serif Display", serif;
+        font-size: 6.25rem;
+        line-height: 6.25rem;
+        font-weight: lighter;
+    }
+    h2 {
+        color: #402b2b;
+        font-family: "DM Serief Display", serif;
+        font-size: 3rem;
+        line-height: 4rem;
+        font-weight: lighter;
+    }
+    h3 {
+        color: #ee4d47;
+        font-family: "Rubik", serif;
+        font-size: 1.5rem;
+        font-weight: bold;
+        letter-spacing: 0.09rem;
+        line-height: 2.5rem;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+    }
+    .btn {
+        color: #fff;
+        background-color: #ee4d47;
+        font-family: "Rubik", serif;
+        font-size: 0.87rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 1.19rem;
+        border-radius: 0.31rem;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+
+/*        480 PX MAX           */
+
+@media screen and (max-width: 480px) {
+    .legend-text h1 {
+        font-size: 3.25rem;
+        line-height: 4.5rem;
+    }
+    .clients h2 {
+        font-size: 1.75rem;
+    }
+    h3 {
+        font-size: 1.25rem;
+    }
+}
+
+
+/*        768 PX MAX           */
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .legend-text h1 {
+        font-size: 5.5rem;
+    }
+    h3 {
+        font-size: 1.75rem;
+    }
+}
+
+
+/*        1279 PX MAX           */
+
+@media screen and (min-width: 769px) and (max-width: 1279px) {}
+
+
+/*        1280+ PX             */
+
+@media screen and (width: 2560px) {
+    .legend-text h1 {
+        font-size: 3.5rem;
+    }
+}

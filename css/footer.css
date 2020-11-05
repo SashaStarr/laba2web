@@ -1,0 +1,60 @@
+@media screen and (min-width: 0px) {
+    .copyright {
+        color: #f8f9fa;
+        font-family: "Rubik", serif;
+        font-size: 1rem;
+        font-weight: bold;
+        line-height: 1.87rem;
+    }
+    .footer-logo {
+        background-image: url(../images/logo.svg);
+        width: 13.25em;
+        height: 3.12em;
+        -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+        transition: width 2s, height 2s, background-color 2s, transform 2s;
+    }
+    .footer-logo:hover {
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+    .footer-social-media {
+        display: flex;
+        width: 10.62em;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+    .copyright {
+        margin-bottom: 10px;
+        font-size: 0.75rem;
+    }
+    .footer-social-media {
+        width: 15rem;
+        margin-top: 10px;
+    }
+}
+
+
+/*        480 PX MAX           */
+
+@media screen and (max-width: 480px) {}
+
+
+/*        768 PX MAX           */
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .copyright {
+        font-size: 0.75rem;
+    }
+}
+
+
+/*        1279 PX MAX           */
+
+@media screen and (min-width: 769px) and (max-width: 1279px) {}
+
+
+/*        1280+ PX              */
+
+@media screen and (min-width: 1280px) {}
